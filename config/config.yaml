@@ -1,0 +1,17 @@
+# config.yaml
+# If psqlPassword is emty Environment variable PSQL_PASSWORD must be set
+# If mqttPassword is emty Environment variable MQTT_PASSWORD must be set
+#
+psql_server:
+  psqlHost: "localhost"
+  psqlPort: "5432"
+  psqlDatabase: "schema1"
+  psqlUser: "postgres"
+  psqlPassword: 
+mqtt_broker:
+  mqttUri: "mqtt://mqtt.auton.ru:48709"
+  mqttTopic: "Auton_json/#"
+  mqttClientId: "GO_TEST_123456"
+  mqttUser: "test"
+  mqttPassword: 
+
