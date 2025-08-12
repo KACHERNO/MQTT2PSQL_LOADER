@@ -1,0 +1,10 @@
+select test.load_measurements();
+select test.load_measurements(interval '1 week');
+select test.load_measurements(interval '2 week');
+select test.load_measurements(interval '3 week');
+select test.load_measurements(interval '4 week');
+select test.load_measurements(interval '5 week');
+select test.load_measurements(interval '6 week');
+select test.load_measurements(interval '7 week');
+select test.load_measurements(interval '8 week');
+select test.load_measurements(interval '9 week');
