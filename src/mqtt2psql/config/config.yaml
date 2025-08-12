@@ -9,7 +9,7 @@ psql_server:
   psqlUser: "postgres"
   psqlPassword: 
 mqtt_broker:
-  mqttUri: "mqtt://mqtt.auton.ru:48709"
+  mqttUri: "mqtt://<BROKER>:<PORT>"
   mqttTopic: "Auton_json/#"
   mqttClientId: "GO_TEST_123456"
   mqttUser: "test"
